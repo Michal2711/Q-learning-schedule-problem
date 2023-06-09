@@ -10,14 +10,14 @@ class Environment():
         self.availability = availability
 
     def get_initial_state(self):
+        self.all_slots = [i for i in range(30)]
         # if /6 are equal it means that it's the same day
-        # TODO
-        # member i chairman inny niż promotor i recenzent
         promoter = self.defences[0].promoter
         reviewer = self.defences[0].reviewer
         available_slots_promoter = self.availability[promoter]
         available_slots_reviewer = self.availability[reviewer]
         available_slots = available_slots_promoter + available_slots_reviewer
+        available_slots = list(set(self.all_slots) & set(available_slots))
         available_chairmans = []
         available_members = []
         for slot in available_slots:
@@ -64,14 +64,15 @@ class Environment():
             return state, -1
 
         # Assign chairman, member and slot
-        self.chairman = chairman
-        self.member = member
-        self.slot = slot
+        # self.chairman = chairman
+        # self.member = member
+        # self.slot = slot
 
         # Update lists of available chairmans and members
         available_chairmans.remove(chairman)
         available_members.remove(member)
         available_slots.remove(slot)
+        self.all_slots.remove(slot)
 
         # Move to the next defence and slot
         if self.defences.index(defence) < len(self.defences) - 1:
@@ -83,6 +84,7 @@ class Environment():
             available_slots_promoter = self.availability[promoter]
             available_slots_reviewer = self.availability[reviewer]
             available_slots = available_slots_promoter + available_slots_reviewer
+            available_slots = list(set(self.all_slots) & set(available_slots))
             available_chairmans = []
             available_members = []
 
