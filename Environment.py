@@ -36,15 +36,24 @@ class Environment():
         available_members = list(filter(lambda x: x!= promoter, available_members))
         available_members = list(filter(lambda x: x!= reviewer, available_members))
 
+        # print(available_slots)
+
         return State(self.defences[0], available_slots, available_chairmans, available_members)
 
     def get_reward(self, defence, slot, chairman, member):
         if chairman in self.chairmans and member in self.members and \
-           slot in self.availability[chairman] and slot in self.availability[member] and \
-            slot in self.availability[defence.promoter] and slot in self.availability[defence.reviewer]:
+           slot // 6 == self.availability[chairman][0] // 6 and slot in self.availability[member] and \
+            (slot in self.availability[defence.promoter] or slot in self.availability[defence.reviewer]):
             return 1
         else:
             return -1
+
+    # def get_reward(self, defence, slot, chairman, member):
+    #     if slot in self.availability[chairman] and slot in self.availability[member] and \
+    #         slot in self.availability[defence.promoter] + self.availability[defence.reviewer]:
+    #         return 1
+    #     else:
+    #         return -1
 
     def take_action(self, state, action):
         # Unpack state and action
@@ -52,26 +61,21 @@ class Environment():
         available_slots = state.available_slots
         available_chairmans = state.available_chairmans
         available_members = state.available_members
-        # defence, available_slots, available_chairmans, available_members = state
 
         slot = action.slot
         chairman = action.chairman
         member = action.member
-        # slot, chairman, member = action
 
         # Check if the action is valid
         if chairman not in available_chairmans or member not in available_members or slot not in available_slots:
             return state, -1
 
-        # Assign chairman, member and slot
-        # self.chairman = chairman
-        # self.member = member
-        # self.slot = slot
+        reward = self.get_reward(defence, slot, chairman, member)
 
         # Update lists of available chairmans and members
-        available_chairmans.remove(chairman)
-        available_members.remove(member)
-        available_slots.remove(slot)
+        # available_chairmans.remove(chairman)
+        # available_members.remove(member)
+        # available_slots.remove(slot)
         self.all_slots.remove(slot)
 
         # Move to the next defence and slot
@@ -91,6 +95,7 @@ class Environment():
             for slot in available_slots:
                 for chairman in self.chairmans:
                     if math.floor(slot / 6) == math.floor(self.availability[chairman][0] / 6):
+                    # if slot in self.availability[chairman]:
                         available_chairmans.append(chairman)
                 for member in self.members:
                     if slot in self.availability[member]:
@@ -104,12 +109,13 @@ class Environment():
             available_members = list(filter(lambda x: x!= promoter, available_members))
             available_members = list(filter(lambda x: x!= reviewer, available_members))
 
+            # print(available_slots)
 
             # Update state
             next_state = State(next_defence, available_slots, available_chairmans, available_members)
 
             # Get reward
-            reward = self.get_reward(defence, slot, chairman, member)
+            # reward = self.get_reward(defence, slot, chairman, member)
         else:
             next_defence = None
             next_state = None

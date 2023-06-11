@@ -17,7 +17,7 @@ class Qlearning():
             # state - defence, available_slots, available_chairmans, available_members
             state = self.env.get_initial_state()
 
-            for _ in range(100):  # assume each episode has 100 steps
+            for _ in range(30):  # assume each episode has 100 steps
                 defence = state.defence
                 available_slots = state.available_slots
                 available_chairmans = state.available_chairmans
@@ -26,11 +26,15 @@ class Qlearning():
                 if np.random.rand() < self.epsilon or (state, 'Exploit') not in self.Q_table:
                     # Exploration: choose random action
                     if not available_chairmans or not available_members or not available_slots:
-                        print(f'No members or chairmans or slots available')
+                        # print(f'No members or chairmans or slots available')
                         break
-                    slot = np.random.choice(available_slots)
-                    chairman = np.random.choice(available_chairmans)
-                    member = np.random.choice(available_members)
+                        slot = None
+                        chairman = None
+                        member = None
+                    else:
+                        slot = np.random.choice(available_slots)
+                        chairman = np.random.choice(available_chairmans)
+                        member = np.random.choice(available_members)
                 else:
                     # Exploitation: choose best action based on current estimate
                     action = self.Q_table[(state, 'Exploit')]
@@ -86,7 +90,7 @@ class Qlearning():
             if not available_actions:
                 # Break the loop if there are no available actions
                 count += 1
-                print('No available actions for current state.')
+                # print('No available actions for current state.')
                 continue
 
             # Choose best action according to Q-table
@@ -101,10 +105,16 @@ class Qlearning():
             if best_action is None:
                 best_action = np.random.choice(available_actions)
 
+            old_state = state
+
             # Perform action and observe new state
-            state, _ = self.env.take_action(state, best_action)
+            state, reward = self.env.take_action(state, best_action)
 
             # Add action to schedule
-            schedule.append(best_action)
+            if reward > 0:
+                schedule.append((old_state.defence, best_action, reward))
+
+            else:
+                count += 1
 
         return schedule, count
