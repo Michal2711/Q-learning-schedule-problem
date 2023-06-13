@@ -1,4 +1,4 @@
-from Classes import State, Action
+from src.Classes import State, Action
 from copy import deepcopy as copy
 
 

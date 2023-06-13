@@ -39,9 +39,11 @@ for example_path in examples_paths_list:
     q_experiment = RLExperiment(q_env, q_agent, num_episodes=1000, max_steps_per_episode=30)
     q_experiment.run()
 
-    sorted_data = sorted(q_experiment.get_schedule_json(), key=lambda x: x['numer slotu'])
-    with open(os.path.join(example_path, 'qlearning_results.json'), 'w', encoding='utf-8') as outfile:
-        json.dump(sorted_data, outfile, indent=1)
+    # Zapisywanie do plików
+
+    # sorted_data = sorted(q_experiment.get_schedule_json(), key=lambda x: x['numer slotu'])
+    # with open(os.path.join(example_path, 'qlearning_results.json'), 'w', encoding='utf-8') as outfile:
+    #     json.dump(sorted_data, outfile, indent=1)
 
     # SARSA
     sarsa_env = Environment(defences, slots, chairman, members, availability, chairman_avail)
@@ -50,18 +52,19 @@ for example_path in examples_paths_list:
     sarsa_experiment = RLExperiment(sarsa_env, sarsa_agent, num_episodes=10000, max_steps_per_episode=30)
     sarsa_experiment.run()
 
-    sorted_data = sorted(sarsa_experiment.get_schedule_json(), key=lambda x: x['numer slotu'])
-    with open(os.path.join(example_path, 'sarsa_results.json'), 'w', encoding='utf-8') as outfile:
-        json.dump(sorted_data, outfile, indent=1)
+    # Zapisywanie do plików
+
+    # sorted_data = sorted(sarsa_experiment.get_schedule_json(), key=lambda x: x['numer slotu'])
+    # with open(os.path.join(example_path, 'sarsa_results.json'), 'w', encoding='utf-8') as outfile:
+    #     json.dump(sorted_data, outfile, indent=1)
 
 
-exit()
 # load workload data
 with open("data/slots/time_slots.json") as f:
     slot_time = json.load(f)
 
 # load timetable data
-with open("test.json") as f:
+with open("data/examples/6/qlearning_results.json") as f:
     schedules = json.load(f)
 
 # convert to dataframe
