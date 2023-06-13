@@ -1,12 +1,11 @@
 import os
 import json
-import pandas as pd
-import matplotlib.pyplot as plt
 from src.Classes import Dataset, Slot, Defence
 from src.Enviroment import Environment
 from src.Qlearning import QLearning
 from src.SARSA import SARSA
 from src.RLexperiment import RLExperiment
+from src.utils import display_result_schedule
 
 
 # Przygotowywanie danych o slotach
@@ -25,7 +24,7 @@ file_names = os.listdir(examples_folder_path)
 sorted_file_names = sorted(file_names, key=lambda x: int(x.split('.')[0]))
 examples_paths_list = [os.path.join(examples_folder_path, file_name) for file_name in sorted_file_names]
 
-for example_path in examples_paths_list:
+for example_path in examples_paths_list[:2]:
     dataset = Dataset(example_path)
     chairman = list(dataset.get_chairman_avail().keys())
     chairman_avail = dataset.get_chairman_avail()
@@ -58,53 +57,4 @@ for example_path in examples_paths_list:
     # with open(os.path.join(example_path, 'sarsa_results.json'), 'w', encoding='utf-8') as outfile:
     #     json.dump(sorted_data, outfile, indent=1)
 
-
-# load workload data
-with open("data/slots/time_slots.json") as f:
-    slot_time = json.load(f)
-
-# load timetable data
-with open("data/examples/6/qlearning_results.json") as f:
-    schedules = json.load(f)
-
-# convert to dataframe
-df = pd.DataFrame(schedules)
-
-# map slot number to time slot
-df['numer slotu'] = df['numer slotu'].astype(str).map(slot_time)
-
-df['Obrona'] = df['student']+'\n'+df['promotor']
-
-ee = pd.DataFrame(df['numer slotu'].str.split('-', expand=True))
-ee['Time'] = ee[1] + '-' + ee[2]
-ee = ee.drop([1, 2], axis=1)
-ee = ee.rename(columns={0: 'Day'})
-# print(ee)
-# extract day and time to new columns
-df[['Day', 'Time']] = ee
-
-# pivot to create timetable
-timetable = df.pivot(index='Time', columns='Day', values='Obrona')
-
-desired_order = ['Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek']
-
-# Select columns in desired order
-timetable = timetable.reindex(columns=desired_order)
-
-fig, ax = plt.subplots(1, 1)
-
-# Remove axis
-ax.axis('off')
-
-# Add a table
-table = ax.table(cellText=timetable.values,
-                 colLabels=timetable.columns,
-                 rowLabels=timetable.index,
-                 cellLoc = 'center',
-                 loc='center')
-
-table.auto_set_font_size(False)
-table.set_fontsize(10)
-table.scale(1, 2) # you can set the scale according to your specific needs
-
-plt.show()
+display_result_schedule(examples_paths_list[0])
