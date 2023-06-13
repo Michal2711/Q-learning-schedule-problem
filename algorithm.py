@@ -38,6 +38,9 @@ class Qlearning():
                 else:
                     # Exploitation: choose best action based on current estimate
                     action = self.Q_table[(state, 'Exploit')]
+                    slot = action.slot
+                    chairman = action.chairman
+                    member = action.member
 
                 action = Action(slot, chairman, member)
 
@@ -51,6 +54,10 @@ class Qlearning():
                 # Update Q-table
 
                 old_value = self.Q_table[(state, action)] if self.Q_table[(state, action)] else 0
+
+                available_slots = next_state.available_slots
+                available_chairmans = next_state.available_chairmans
+                available_members = next_state.available_members
                 if available_chairmans and available_members and available_slots:
                     max_next_value = 0
                     for member in available_members:
