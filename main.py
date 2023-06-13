@@ -2,11 +2,11 @@ import os
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
-from Classes import Dataset, Slot, Defence
-from Enviroment import Environment
-from Qlearning import QLearning
-from SARSA import SARSA
-from RLexperiment import RLExperiment
+from src.Classes import Dataset, Slot, Defence
+from src.Enviroment import Environment
+from src.Qlearning import QLearning
+from src.SARSA import SARSA
+from src.RLexperiment import RLExperiment
 
 
 # Przygotowywanie danych o slotach
