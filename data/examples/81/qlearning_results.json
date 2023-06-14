@@ -64,11 +64,11 @@
   "numer slotu": 7
  },
  {
-  "student": "Lech Matyczak",
-  "promotor": "dr hab. P.Wawrzy\u0144ski",
-  "recenzent": "dr in\u017c. M.Chwesiuk",
+  "student": "Katarzyna Goltman",
+  "promotor": "dr in\u017c. K.Radlak",
+  "recenzent": "doc. dr in\u017c. R.Podraza",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "cz\u0142onek komisji": "dr hab. R.Nowak, prof. PW",
+  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
   "numer slotu": 8
  },
  {
@@ -88,12 +88,20 @@
   "numer slotu": 10
  },
  {
-  "student": "Helena Januszkiewicz",
-  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
-  "recenzent": "mgr in\u017c. P.Radziszewski",
+  "student": "Agnieszka Zerger",
+  "promotor": "dr in\u017c. W.Ku\u015bmirek",
+  "recenzent": "dr in\u017c. G.Protaziuk",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
   "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
   "numer slotu": 11
+ },
+ {
+  "student": "Lech Matyczak",
+  "promotor": "dr hab. P.Wawrzy\u0144ski",
+  "recenzent": "dr in\u017c. M.Chwesiuk",
+  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
+  "cz\u0142onek komisji": "dr J.Komorowski",
+  "numer slotu": 12
  },
  {
   "student": "Konstanty Kosidowski",
@@ -101,30 +109,22 @@
   "recenzent": "dr hab. G.Pastuszak",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr J.Komorowski",
-  "numer slotu": 12
+  "numer slotu": 13
  },
  {
   "student": "Wies\u0142awa Tomczik",
   "promotor": "dr in\u017c. K.\u017bbikowski",
   "recenzent": "dr hab. J.Arabas, prof. PW",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr J.Komorowski",
-  "numer slotu": 13
- },
- {
-  "student": "Tytus Janik",
-  "promotor": "dr in\u017c. J.Raczkowski",
-  "recenzent": "dr in\u017c. D.Ry\u017cko",
-  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 14
  },
  {
-  "student": "Agnieszka Zerger",
-  "promotor": "dr in\u017c. W.Ku\u015bmirek",
-  "recenzent": "dr in\u017c. G.Protaziuk",
+  "student": "Helena Januszkiewicz",
+  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
+  "recenzent": "mgr in\u017c. P.Radziszewski",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 15
  },
  {
@@ -168,6 +168,14 @@
   "numer slotu": 21
  },
  {
+  "student": "Tytus Janik",
+  "promotor": "dr in\u017c. J.Raczkowski",
+  "recenzent": "dr in\u017c. D.Ry\u017cko",
+  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
+  "cz\u0142onek komisji": "dr in\u017c. A.Derezi\u0144ska",
+  "numer slotu": 22
+ },
+ {
   "student": "Krzysztof Arciszewski",
   "promotor": "dr J.Komorowski",
   "recenzent": "dr in\u017c. M.Koz\u0142owski",
@@ -208,11 +216,11 @@
   "numer slotu": 28
  },
  {
-  "student": "Katarzyna Goltman",
-  "promotor": "dr in\u017c. K.Radlak",
-  "recenzent": "doc. dr in\u017c. R.Podraza",
+  "student": "Agnieszka Zerger",
+  "promotor": "dr in\u017c. W.Ku\u015bmirek",
+  "recenzent": "dr in\u017c. G.Protaziuk",
   "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. T.\u015aliwi\u0144ski",
+  "cz\u0142onek komisji": "dr hab. T.Trzci\u0144ski, prof. PW",
   "numer slotu": 29
  }
 ]

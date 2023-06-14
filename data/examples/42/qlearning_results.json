@@ -124,7 +124,7 @@
   "promotor": "dr in\u017c. J.Koperwas",
   "recenzent": "dr in\u017c. S.Kozdrowski",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "mgr in\u017c. \u0141.Neumann",
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 16
  },
  {
@@ -216,19 +216,19 @@
   "numer slotu": 27
  },
  {
-  "student": "Igor Forszt",
-  "promotor": "mgr in\u017c. W.Wysota",
-  "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr in\u017c. W.Ku\u015bmirek",
-  "numer slotu": 28
- },
- {
   "student": "Danuta Amsko",
   "promotor": "dr in\u017c. M.Chwesiuk",
   "recenzent": "dr hab. R.Nowak, prof. PW",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
   "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
+  "numer slotu": 28
+ },
+ {
+  "student": "Igor Forszt",
+  "promotor": "mgr in\u017c. W.Wysota",
+  "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "przewodnicz\u0105cy": "dr hab. I.Blumke",
+  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
   "numer slotu": 29
  }
 ]

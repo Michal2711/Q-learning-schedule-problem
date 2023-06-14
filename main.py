@@ -57,4 +57,4 @@ for example_path in examples_paths_list[:2]:
     # with open(os.path.join(example_path, 'sarsa_results.json'), 'w', encoding='utf-8') as outfile:
     #     json.dump(sorted_data, outfile, indent=1)
 
-display_result_schedule(examples_paths_list[0])
+display_result_schedule(examples_paths_list[9])

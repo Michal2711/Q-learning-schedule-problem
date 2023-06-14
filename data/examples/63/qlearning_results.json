@@ -40,11 +40,11 @@
   "numer slotu": 5
  },
  {
-  "student": "Krzysztof Arciszewski",
-  "promotor": "dr J.Komorowski",
-  "recenzent": "dr in\u017c. M.Koz\u0142owski",
+  "student": "Renata Sadownik",
+  "promotor": "dr in\u017c. A.Derezi\u0144ska",
+  "recenzent": "mgr in\u017c. W.Wysota",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr in\u017c. A.Derezi\u0144ska",
+  "cz\u0142onek komisji": "dr J.Komorowski",
   "numer slotu": 6
  },
  {
@@ -96,17 +96,17 @@
   "numer slotu": 15
  },
  {
-  "student": "Renata Sadownik",
-  "promotor": "dr in\u017c. A.Derezi\u0144ska",
-  "recenzent": "mgr in\u017c. W.Wysota",
-  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
-  "numer slotu": 16
- },
- {
   "student": "Igor Forszt",
   "promotor": "mgr in\u017c. W.Wysota",
   "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
+  "numer slotu": 16
+ },
+ {
+  "student": "Urszula Ga\u0142ecki-Haber",
+  "promotor": "dr in\u017c. J.Koperwas",
+  "recenzent": "dr in\u017c. S.Kozdrowski",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 17
@@ -136,14 +136,6 @@
   "numer slotu": 20
  },
  {
-  "student": "Urszula Ga\u0142ecki-Haber",
-  "promotor": "dr in\u017c. J.Koperwas",
-  "recenzent": "dr in\u017c. S.Kozdrowski",
-  "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
-  "numer slotu": 21
- },
- {
   "student": "Ernest Pietuszy\u0144ski",
   "promotor": "dr hab. T.Gambin, prof. PW",
   "recenzent": "prof. dr hab. P.Rokita",
@@ -156,7 +148,7 @@
   "promotor": "dr hab. T.Gambin, prof. PW",
   "recenzent": "prof. dr hab. P.Rokita",
   "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "doc. dr in\u017c. R.Podraza",
+  "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
   "numer slotu": 23
  },
  {
@@ -188,7 +180,7 @@
   "promotor": "dr in\u017c. P.Zawistowski",
   "recenzent": "dr in\u017c. G.Blinowski",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "cz\u0142onek komisji": "mgr in\u017c. \u0141.Neumann",
+  "cz\u0142onek komisji": "dr in\u017c. A.Derezi\u0144ska",
   "numer slotu": 29
  }
 ]

@@ -64,19 +64,19 @@
   "numer slotu": 9
  },
  {
-  "student": "Ernest Pietuszy\u0144ski",
-  "promotor": "dr hab. T.Gambin, prof. PW",
-  "recenzent": "prof. dr hab. P.Rokita",
-  "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
-  "numer slotu": 10
- },
- {
   "student": "Tytus Janik",
   "promotor": "dr in\u017c. J.Raczkowski",
   "recenzent": "dr in\u017c. D.Ry\u017cko",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
+  "numer slotu": 10
+ },
+ {
+  "student": "Ernest Pietuszy\u0144ski",
+  "promotor": "dr hab. T.Gambin, prof. PW",
+  "recenzent": "prof. dr hab. P.Rokita",
+  "przewodnicz\u0105cy": "dr hab. I.Blumke",
+  "cz\u0142onek komisji": "mgr in\u017c. W.Wysota",
   "numer slotu": 11
  },
  {

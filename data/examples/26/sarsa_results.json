@@ -132,8 +132,16 @@
   "promotor": "dr hab. P.Wawrzy\u0144ski",
   "recenzent": "dr in\u017c. M.Chwesiuk",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr in\u017c. K.Radlak",
+  "cz\u0142onek komisji": "dr hab. W.Zabo\u0142otny, prof. PW",
   "numer slotu": 20
+ },
+ {
+  "student": "Marian Czajka",
+  "promotor": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "recenzent": "dr hab. T.Trzci\u0144ski, prof. PW",
+  "przewodnicz\u0105cy": "dr hab. I.Blumke",
+  "cz\u0142onek komisji": "dr in\u017c. D.Ry\u017cko",
+  "numer slotu": 21
  },
  {
   "student": "Mariusz Rzehorzek",
@@ -182,13 +190,5 @@
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 28
- },
- {
-  "student": "Marian Czajka",
-  "promotor": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "recenzent": "dr hab. T.Trzci\u0144ski, prof. PW",
-  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. P.Andruszkiewicz",
-  "numer slotu": 29
  }
 ]

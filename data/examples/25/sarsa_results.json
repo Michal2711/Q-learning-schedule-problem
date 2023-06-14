@@ -32,19 +32,19 @@
   "numer slotu": 3
  },
  {
+  "student": "Mariusz Rzehorzek",
+  "promotor": "dr in\u017c. P.Zawistowski",
+  "recenzent": "dr in\u017c. G.Blinowski",
+  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
+  "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
+  "numer slotu": 4
+ },
+ {
   "student": "Tytus Janik",
   "promotor": "dr in\u017c. J.Raczkowski",
   "recenzent": "dr in\u017c. D.Ry\u017cko",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
-  "numer slotu": 4
- },
- {
-  "student": "Mariusz Rzehorzek",
-  "promotor": "dr in\u017c. P.Zawistowski",
-  "recenzent": "dr in\u017c. G.Blinowski",
-  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. J.Wytr\u0119bowicz",
   "numer slotu": 5
  },
  {
@@ -148,7 +148,7 @@
   "promotor": "dr J.Komorowski",
   "recenzent": "dr in\u017c. M.Koz\u0142owski",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr in\u017c. J.Koperwas",
+  "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
   "numer slotu": 19
  },
  {
@@ -172,7 +172,7 @@
   "promotor": "dr in\u017c. M.Chwesiuk",
   "recenzent": "dr hab. R.Nowak, prof. PW",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
+  "cz\u0142onek komisji": "dr in\u017c. \u0141.D\u0105ba\u0142a",
   "numer slotu": 25
  },
  {
