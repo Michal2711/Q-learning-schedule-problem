@@ -80,19 +80,19 @@
   "numer slotu": 9
  },
  {
-  "student": "Wanda Szwajnok",
-  "promotor": "dr hab. J.Arabas, prof. PW",
-  "recenzent": "prof. dr hab. J.Mulawka",
-  "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
-  "numer slotu": 10
- },
- {
   "student": "Agnieszka Zerger",
   "promotor": "dr in\u017c. W.Ku\u015bmirek",
   "recenzent": "dr in\u017c. G.Protaziuk",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
   "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
+  "numer slotu": 10
+ },
+ {
+  "student": "Wanda Szwajnok",
+  "promotor": "dr hab. J.Arabas, prof. PW",
+  "recenzent": "prof. dr hab. J.Mulawka",
+  "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "cz\u0142onek komisji": "dr in\u017c. G.Protaziuk",
   "numer slotu": 11
  },
  {
@@ -140,7 +140,7 @@
   "promotor": "dr in\u017c. A.Derezi\u0144ska",
   "recenzent": "mgr in\u017c. W.Wysota",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "cz\u0142onek komisji": "dr in\u017c. S.Kozdrowski",
   "numer slotu": 17
  },
  {
