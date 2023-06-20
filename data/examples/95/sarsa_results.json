@@ -56,17 +56,17 @@
   "numer slotu": 6
  },
  {
-  "student": "Fryderyk Horyd",
-  "promotor": "dr in\u017c. \u0141.Skonieczny",
-  "recenzent": "dr in\u017c. J.Wytr\u0119bowicz",
+  "student": "Renata Sadownik",
+  "promotor": "dr in\u017c. A.Derezi\u0144ska",
+  "recenzent": "mgr in\u017c. W.Wysota",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 7
  },
  {
-  "student": "Bogus\u0142aw Torski",
-  "promotor": "dr in\u017c. G.Blinowski",
-  "recenzent": "mgr in\u017c. \u0141.Neumann",
+  "student": "Fryderyk Horyd",
+  "promotor": "dr in\u017c. \u0141.Skonieczny",
+  "recenzent": "dr in\u017c. J.Wytr\u0119bowicz",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
   "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
   "numer slotu": 8
@@ -104,25 +104,25 @@
   "numer slotu": 14
  },
  {
-  "student": "Danuta Amsko",
-  "promotor": "dr in\u017c. M.Chwesiuk",
-  "recenzent": "dr hab. R.Nowak, prof. PW",
+  "student": "Lech Matyczak",
+  "promotor": "dr hab. P.Wawrzy\u0144ski",
+  "recenzent": "dr in\u017c. M.Chwesiuk",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr hab. I.Blumke",
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 15
  },
  {
-  "student": "Helena Januszkiewicz",
-  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
-  "recenzent": "mgr in\u017c. P.Radziszewski",
+  "student": "Igor Forszt",
+  "promotor": "mgr in\u017c. W.Wysota",
+  "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 16
  },
  {
-  "student": "Konstanty Kosidowski",
-  "promotor": "dr in\u017c. M.Koz\u0142owski",
-  "recenzent": "dr hab. G.Pastuszak",
+  "student": "Helena Januszkiewicz",
+  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
+  "recenzent": "mgr in\u017c. P.Radziszewski",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
   "cz\u0142onek komisji": "dr J.Komorowski",
   "numer slotu": 17
@@ -152,35 +152,27 @@
   "numer slotu": 20
  },
  {
-  "student": "Ernest Pietuszy\u0144ski",
-  "promotor": "dr hab. T.Gambin, prof. PW",
-  "recenzent": "prof. dr hab. P.Rokita",
+  "student": "Bogus\u0142aw Torski",
+  "promotor": "dr in\u017c. G.Blinowski",
+  "recenzent": "mgr in\u017c. \u0141.Neumann",
   "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 21
- },
- {
-  "student": "Renata Sadownik",
-  "promotor": "dr in\u017c. A.Derezi\u0144ska",
-  "recenzent": "mgr in\u017c. W.Wysota",
-  "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. K.Radlak",
-  "numer slotu": 22
  },
  {
   "student": "Marian Czajka",
   "promotor": "dr hab. W.Zabo\u0142otny, prof. PW",
   "recenzent": "dr hab. T.Trzci\u0144ski, prof. PW",
   "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
-  "numer slotu": 23
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
+  "numer slotu": 22
  },
  {
-  "student": "Lech Matyczak",
-  "promotor": "dr hab. P.Wawrzy\u0144ski",
-  "recenzent": "dr in\u017c. M.Chwesiuk",
+  "student": "Danuta Amsko",
+  "promotor": "dr in\u017c. M.Chwesiuk",
+  "recenzent": "dr hab. R.Nowak, prof. PW",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr hab. R.Nowak, prof. PW",
+  "cz\u0142onek komisji": "dr in\u017c. J.Koperwas",
   "numer slotu": 24
  },
  {
@@ -216,11 +208,11 @@
   "numer slotu": 28
  },
  {
-  "student": "Igor Forszt",
-  "promotor": "mgr in\u017c. W.Wysota",
-  "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "student": "Konstanty Kosidowski",
+  "promotor": "dr in\u017c. M.Koz\u0142owski",
+  "recenzent": "dr hab. G.Pastuszak",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr in\u017c. G.Blinowski",
+  "cz\u0142onek komisji": "dr in\u017c. \u0141.Skonieczny",
   "numer slotu": 29
  }
 ]

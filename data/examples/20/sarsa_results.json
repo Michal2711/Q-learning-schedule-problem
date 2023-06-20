@@ -1,16 +1,16 @@
 [
  {
-  "student": "Renata Sadownik",
-  "promotor": "dr in\u017c. A.Derezi\u0144ska",
-  "recenzent": "mgr in\u017c. W.Wysota",
-  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "numer slotu": 0
- },
- {
   "student": "Igor Forszt",
   "promotor": "mgr in\u017c. W.Wysota",
   "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
+  "cz\u0142onek komisji": "dr in\u017c. A.Derezi\u0144ska",
+  "numer slotu": 0
+ },
+ {
+  "student": "Helena Januszkiewicz",
+  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
+  "recenzent": "mgr in\u017c. P.Radziszewski",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
   "cz\u0142onek komisji": "dr in\u017c. A.Derezi\u0144ska",
   "numer slotu": 1
@@ -96,12 +96,12 @@
   "numer slotu": 11
  },
  {
-  "student": "Helena Januszkiewicz",
-  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
-  "recenzent": "mgr in\u017c. P.Radziszewski",
+  "student": "Anna Kristman",
+  "promotor": "dr in\u017c. D.Ry\u017cko",
+  "recenzent": "dr in\u017c. T.\u015aliwi\u0144ski",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr in\u017c. \u0141.Skonieczny",
-  "numer slotu": 12
+  "cz\u0142onek komisji": "mgr in\u017c. P.Radziszewski",
+  "numer slotu": 13
  },
  {
   "student": "Wies\u0142awa Tomczik",
@@ -160,11 +160,11 @@
   "numer slotu": 20
  },
  {
-  "student": "Anna Kristman",
-  "promotor": "dr in\u017c. D.Ry\u017cko",
-  "recenzent": "dr in\u017c. T.\u015aliwi\u0144ski",
+  "student": "Renata Sadownik",
+  "promotor": "dr in\u017c. A.Derezi\u0144ska",
+  "recenzent": "mgr in\u017c. W.Wysota",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "cz\u0142onek komisji": "dr J.Komorowski",
+  "cz\u0142onek komisji": "dr in\u017c. K.Radlak",
   "numer slotu": 21
  },
  {

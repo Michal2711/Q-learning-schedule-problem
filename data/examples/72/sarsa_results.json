@@ -40,9 +40,9 @@
   "numer slotu": 4
  },
  {
-  "student": "Fryderyk Horyd",
-  "promotor": "dr in\u017c. \u0141.Skonieczny",
-  "recenzent": "dr in\u017c. J.Wytr\u0119bowicz",
+  "student": "Renata Sadownik",
+  "promotor": "dr in\u017c. A.Derezi\u0144ska",
+  "recenzent": "mgr in\u017c. W.Wysota",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Trzci\u0144ski, prof. PW",
   "numer slotu": 5
@@ -88,12 +88,20 @@
   "numer slotu": 10
  },
  {
-  "student": "Helena Januszkiewicz",
-  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
-  "recenzent": "mgr in\u017c. P.Radziszewski",
+  "student": "Fryderyk Horyd",
+  "promotor": "dr in\u017c. \u0141.Skonieczny",
+  "recenzent": "dr in\u017c. J.Wytr\u0119bowicz",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 11
+ },
+ {
+  "student": "Helena Januszkiewicz",
+  "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
+  "recenzent": "mgr in\u017c. P.Radziszewski",
+  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
+  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
+  "numer slotu": 12
  },
  {
   "student": "Anna Kristman",
@@ -101,28 +109,20 @@
   "recenzent": "dr in\u017c. T.\u015aliwi\u0144ski",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
   "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
-  "numer slotu": 12
- },
- {
-  "student": "Mariusz Rzehorzek",
-  "promotor": "dr in\u017c. P.Zawistowski",
-  "recenzent": "dr in\u017c. G.Blinowski",
-  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr in\u017c. J.Raczkowski",
   "numer slotu": 13
- },
- {
-  "student": "Renata Sadownik",
-  "promotor": "dr in\u017c. A.Derezi\u0144ska",
-  "recenzent": "mgr in\u017c. W.Wysota",
-  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr in\u017c. P.Andruszkiewicz",
-  "numer slotu": 14
  },
  {
   "student": "Igor Forszt",
   "promotor": "mgr in\u017c. W.Wysota",
   "recenzent": "dr hab. W.Zabo\u0142otny, prof. PW",
+  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
+  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
+  "numer slotu": 14
+ },
+ {
+  "student": "Katarzyna Goltman",
+  "promotor": "dr in\u017c. K.Radlak",
+  "recenzent": "doc. dr in\u017c. R.Podraza",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
   "numer slotu": 15
@@ -176,11 +176,11 @@
   "numer slotu": 22
  },
  {
-  "student": "Barbara Meyerhold",
-  "promotor": "dr hab. G.Pastuszak",
-  "recenzent": "dr in\u017c. A.Derezi\u0144ska",
+  "student": "Ernest Pietuszy\u0144ski",
+  "promotor": "dr hab. T.Gambin, prof. PW",
+  "recenzent": "prof. dr hab. P.Rokita",
   "przewodnicz\u0105cy": "dr hab. R.Nowak, prof. PW",
-  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
+  "cz\u0142onek komisji": "dr J.Komorowski",
   "numer slotu": 23
  },
  {
@@ -192,9 +192,9 @@
   "numer slotu": 25
  },
  {
-  "student": "Katarzyna Goltman",
-  "promotor": "dr in\u017c. K.Radlak",
-  "recenzent": "doc. dr in\u017c. R.Podraza",
+  "student": "Barbara Meyerhold",
+  "promotor": "dr hab. G.Pastuszak",
+  "recenzent": "dr in\u017c. A.Derezi\u0144ska",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
   "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
   "numer slotu": 26

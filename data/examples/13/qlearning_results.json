@@ -96,19 +96,19 @@
   "numer slotu": 11
  },
  {
-  "student": "Katarzyna Goltman",
-  "promotor": "dr in\u017c. K.Radlak",
-  "recenzent": "doc. dr in\u017c. R.Podraza",
-  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
-  "numer slotu": 12
- },
- {
   "student": "Lech Matyczak",
   "promotor": "dr hab. P.Wawrzy\u0144ski",
   "recenzent": "dr in\u017c. M.Chwesiuk",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
   "cz\u0142onek komisji": "dr hab. R.Nowak, prof. PW",
+  "numer slotu": 12
+ },
+ {
+  "student": "Rados\u0142aw Staniszewski",
+  "promotor": "dr in\u017c. P.Andruszkiewicz",
+  "recenzent": "dr in\u017c. J.Koperwas",
+  "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
+  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
   "numer slotu": 13
  },
  {
@@ -152,19 +152,19 @@
   "numer slotu": 19
  },
  {
+  "student": "Katarzyna Goltman",
+  "promotor": "dr in\u017c. K.Radlak",
+  "recenzent": "doc. dr in\u017c. R.Podraza",
+  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
+  "cz\u0142onek komisji": "mgr in\u017c. \u0141.Neumann",
+  "numer slotu": 22
+ },
+ {
   "student": "Mariusz Rzehorzek",
   "promotor": "dr in\u017c. P.Zawistowski",
   "recenzent": "dr in\u017c. G.Blinowski",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
   "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
-  "numer slotu": 22
- },
- {
-  "student": "Ernest Pietuszy\u0144ski",
-  "promotor": "dr hab. T.Gambin, prof. PW",
-  "recenzent": "prof. dr hab. P.Rokita",
-  "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
   "numer slotu": 23
  },
  {

@@ -8,11 +8,11 @@
   "numer slotu": 0
  },
  {
-  "student": "Fryderyk Horyd",
-  "promotor": "dr in\u017c. \u0141.Skonieczny",
-  "recenzent": "dr in\u017c. J.Wytr\u0119bowicz",
+  "student": "Lech Matyczak",
+  "promotor": "dr hab. P.Wawrzy\u0144ski",
+  "recenzent": "dr in\u017c. M.Chwesiuk",
   "przewodnicz\u0105cy": "prof. dr hab. P.Rokita",
-  "cz\u0142onek komisji": "dr in\u017c. M.Chwesiuk",
+  "cz\u0142onek komisji": "dr hab. R.Nowak, prof. PW",
   "numer slotu": 1
  },
  {
@@ -60,7 +60,7 @@
   "promotor": "dr in\u017c. T.\u015aliwi\u0144ski",
   "recenzent": "mgr in\u017c. P.Radziszewski",
   "przewodnicz\u0105cy": "dr hab. W.Zabo\u0142otny, prof. PW",
-  "cz\u0142onek komisji": "dr hab. G.Pastuszak",
+  "cz\u0142onek komisji": "dr J.Komorowski",
   "numer slotu": 7
  },
  {
@@ -108,7 +108,7 @@
   "promotor": "dr in\u017c. K.Radlak",
   "recenzent": "doc. dr in\u017c. R.Podraza",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "mgr in\u017c. P.Radziszewski",
+  "cz\u0142onek komisji": "dr hab. T.Trzci\u0144ski, prof. PW",
   "numer slotu": 13
  },
  {
@@ -136,11 +136,11 @@
   "numer slotu": 16
  },
  {
-  "student": "Lech Matyczak",
-  "promotor": "dr hab. P.Wawrzy\u0144ski",
-  "recenzent": "dr in\u017c. M.Chwesiuk",
+  "student": "Fryderyk Horyd",
+  "promotor": "dr in\u017c. \u0141.Skonieczny",
+  "recenzent": "dr in\u017c. J.Wytr\u0119bowicz",
   "przewodnicz\u0105cy": "dr hab. I.Blumke",
-  "cz\u0142onek komisji": "dr hab. T.Gambin, prof. PW",
+  "cz\u0142onek komisji": "dr in\u017c. D.Ry\u017cko",
   "numer slotu": 17
  },
  {
@@ -196,7 +196,7 @@
   "promotor": "dr hab. T.Gambin, prof. PW",
   "recenzent": "prof. dr hab. P.Rokita",
   "przewodnicz\u0105cy": "dr hab. P.Gawrysiak, prof. PW",
-  "cz\u0142onek komisji": "dr in\u017c. M.Koz\u0142owski",
+  "cz\u0142onek komisji": "dr in\u017c. P.Zawistowski",
   "numer slotu": 29
  }
 ]
