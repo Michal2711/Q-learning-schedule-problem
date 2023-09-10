@@ -1,2 +1,3 @@
-/__pycache__
-/inne
+*__pycache__
+/*.zip
+.vscode
